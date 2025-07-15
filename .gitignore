@@ -1,0 +1,50 @@
+# Archivos de credenciales
+secrets.yaml
+
+# Bases de datos y registros pesados
+home-assistant_v2.db
+home-assistant_v2.db-shm
+home-assistant_v2.db-wal
+
+# Archivos de logs
+home-assistant.log
+home-assistant.log.1
+*.log
+
+# Archivos del sistema
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.pyc
+
+# Archivos de configuración interna
+.storage/
+.cloud/
+.custom_components/__pycache__/
+custom_components/
+# Instantáneas y backups locales
+backup/
+tmp/
+*.tar
+*.tar.gz
+
+# Archivos de caché y temporales
+__pycache__/
+deps/
+*.swp
+*.bak
+
+# Archivos de dispositivos
+*.pid
+*.sock
+
+# Archivos de usuario
+*.yaml.save
+*.yaml.bak
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+
